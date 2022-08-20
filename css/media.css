@@ -1,0 +1,230 @@
+/*  X-Small devices (portrait phones, less than 576px) */
+@media (max-width:575.98px){
+    body{
+        padding-top: 89px;
+    }
+    .common-padding{
+        padding:50px 0 70px;
+    }
+    /* header start  */
+    header{
+        padding: 10px 0;
+    }
+    .menu ul li a{
+        padding: 10px 0 0 !important;
+        font-size: 20px;
+        text-align: right;
+    }
+    /* slider start  */
+    .slider{
+        padding-bottom: 60px;
+    }
+    .custom-indicators{
+        bottom:-60px;
+    }
+    .custom-indicators [data-bs-target]{
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+    }
+    .s-text{
+        margin-top:0;
+    }
+    .s-text h2{
+        margin:10px 0;
+    }
+    .s-text p{
+        margin-bottom:20px;
+    }
+    .s-icon ul li{
+        margin-right:15px !important;
+    }
+    .s-icon ul li i{
+        font-size: 35px;
+    }
+    /* Feature start  */
+    .c-h1{
+        margin-bottom:10px;
+        font-size:25px;
+    }
+    .c-p{
+        font-size:17px;
+        line-height: 25px;
+    }
+    .f-single{
+        margin-top:30px;
+    }
+    .f-text{
+        text-align: center;
+    }
+    .f-icon i{
+        font-size: 35px;
+    }
+    .f-text h2{
+        margin-bottom:5px;
+        font-size: 20px;
+    }
+    /* contact start  */
+    .c-form{
+        margin:40px 0 40px;
+        text-align: center;
+    }
+    .c-input{
+        height: 45px;
+        padding:10px 10px;
+    }
+    .c-submit{
+        width: 30%;
+        height: 45px;
+    }
+    .c-icon ul li {
+        margin-right: 20px !important;
+    }
+    .c-icon ul li a i{
+        font-size: 38px;
+    }
+    /* footer start  */
+    footer{
+        padding-bottom:70px;
+    }
+    .foot-1{
+        text-align: center;
+    }
+    .foot-2{
+        margin-top: 40px;
+        text-align: center;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px){
+    .common-padding{
+        padding:50px 0 70px;
+    }
+     /* header start  */
+    .menu ul li a{
+        padding: 10px 0 0 !important;
+        font-size: 20px;
+        text-align: right;
+    }
+    /* slider start  */
+    .slider{
+        padding-bottom: 60px;
+    }
+    .custom-indicators{
+        bottom:-55px;
+    }
+    .custom-indicators [data-bs-target]{
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+    }
+    .s-text{
+        margin-top:0;
+    }
+    .s-text h2{
+        margin:10px 0;
+    }
+    .s-text p{
+        margin-bottom:20px;
+    }
+    .s-icon ul li{
+        margin-right:20px !important;
+    }
+    .s-icon ul li i{
+        font-size: 35px;
+    }
+    /* feature start  */
+    .c-h1{
+        margin-bottom:10px;
+        font-size:25px;
+    }
+    .c-p{
+        font-size:17px;
+        line-height: 25px;
+    }
+    .f-single{
+        margin-top:30px;
+    }
+    .f-text{
+        text-align: center;
+    }
+    .f-icon i{
+        font-size: 35px;
+    }
+    .f-text h2{
+        margin-bottom:5px;
+        font-size: 20px;
+    }
+
+    /* contact start  */
+    .c-form{
+        margin:40px 40px;
+        text-align: center;
+    }
+    .c-input{
+        height: 45px;
+        padding: 10px 10px;
+    }
+    .c-submit{
+        width: 25%;
+        height: 45px;
+    }
+    .c-icon ul li {
+        margin-right: 25px !important;
+    }
+    .c-icon ul li a i{
+        font-size: 40px;
+    }
+    /* footer start  */
+    footer{
+        padding-bottom:70px;
+    }
+    .foot-1{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .foot-2{
+        text-align: center;
+    }
+}
+
+/*Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .common-padding{
+        padding:80px 0 100px;
+    }
+     /* header start  */
+    .menu ul li a{
+        padding: 10px 0 0 !important;
+        text-align: right;
+    }
+    /* slider start  */
+    .f-single{
+        margin-top:50px;
+    }
+    /* feature start  */
+
+    /* contact start  */
+    .c-form{
+        margin: 65px 0 70px;
+    }
+    /* footer start  */
+    footer{
+        padding-bottom:100px;
+    }
+}
+
+/*Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1199.98px){
+
+}
+
+/*X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1399.98px){
+
+}
+
+/*XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
